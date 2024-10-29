@@ -97,7 +97,8 @@ ALTER table if exists emp_alter1
 desc emp_alter1;
 
 -- 테이블 이름 변경
-
+ALTER table emp_alter1
+RENAME emp_alter;
 
 drop table if exists dept;
 drop table if exists dept1;
